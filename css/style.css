@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: violet;
+} */
+
+.container{
+    width: 100%;
+    padding:15px;
+    border: 1px solid black;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.row{
+    width: 100%;
+    border: 1px solid black;
+   
+}
+
+.col{
+    width: 100%;
+    display:inline-block;
+    margin-right: -4px;
+    border: 1px solid purple;
+   
+
+
+
+}
+
+.col-2{
+    width: 50%;
+
+}
+
+.col-3{
+    width:33.33%;
+}
+
+
+.col-4{
+    width: 25%;
+}
+
+@media screen and(min-width:992px){
+
+    .col-3{
+        width: 33.33%;
+    }
+
+    .col-4{
+        width: 25%;
+    }
+
+
+}
